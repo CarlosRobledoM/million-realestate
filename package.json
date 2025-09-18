@@ -1,13 +1,15 @@
 {
   "name": "million-realestate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
-    "test": "turbo test"
+    "test": "turbo test",
+    "web:i": "pnpm -w install --filter ./webpage",
+    "web:dev": "pnpm --filter ./webpage dev",
+    "web:build": "pnpm --filter ./webpage build",
+    "web:test": "pnpm --filter ./webpage test"
   },
   "keywords": [],
   "author": "",

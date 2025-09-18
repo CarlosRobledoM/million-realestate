@@ -1,0 +1,45 @@
+/* globals.css — Tailwind v4 */
+
+@import "tailwindcss";
+/* Plugins se declaran en CSS con @plugin */
+@plugin "@tailwindcss/typography";
+@plugin "tailwindcss-animate";
+
+/* Define tokens del tema con @theme (colores, radios, sombras, etc.) */
+@theme {
+  --color-brand-50: #f2f7ff;
+  --color-brand-100: #e6effe;
+  --color-brand-200: #c4d9fd;
+  --color-brand-300: #9fc1fb;
+  --color-brand-400: #6f9ef8;   
+  --color-brand-500: #3d78f5;
+  --color-brand-600: #245eeb;
+  --color-brand-700: #1c4ac0;
+  --color-brand-800: #183e9a;
+  --color-brand-900: #17377d;
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.06);
+
+  /* (opcional) container ancho 2xl */
+  --container-2xl: 1280px;
+}
+
+/* Preflight (reset) viene incluido con @import "tailwindcss";
+   si SOLO quisieras el reset, usarías:
+   @import "tailwindcss/preflight";
+*/
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+}
+
+/* Ejemplos de uso:
+   text-brand-500, bg-brand-50, rounded-xl (usa --radius-xl), shadow-soft
+*/
