@@ -1,0 +1,22 @@
+[
+  {
+    "idProperty": "PR-1001",
+    "file": "https://picsum.photos/id/1018/640/360",
+    "enabled": true
+  },
+  {
+    "idProperty": "PR-1002",
+    "file": "https://picsum.photos/id/1005/640/360",
+    "enabled": true
+  },
+  {
+    "idProperty": "PR-1002",
+    "file": "https://picsum.photos/id/1021/640/360",
+    "enabled": false
+  },
+  {
+    "idProperty": "PR-1003",
+    "file": "https://picsum.photos/id/1001/640/360",
+    "enabled": true
+  }
+]

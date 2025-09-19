@@ -1,0 +1,16 @@
+[
+  {
+    "idOwner": "OWN-001",
+    "name": "Alice Johnson",
+    "address": "742 Evergreen",
+    "photo": null,
+    "birthday": "1988-04-22"
+  },
+  {
+    "idOwner": "OWN-002",
+    "name": "Bob Smith",
+    "address": "221B Baker",
+    "photo": null,
+    "birthday": "1981-01-14"
+  }
+]

@@ -6,10 +6,14 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "test": "turbo test",
+    "bd:create": "cd ./bd && docker compose up -d",
+    "bd:drop": "cd ./bd && docker compose down -v",
     "web:i": "pnpm -w install --filter ./webpage",
     "web:dev": "pnpm --filter ./webpage dev",
     "web:build": "pnpm --filter ./webpage build",
-    "web:test": "pnpm --filter ./webpage test"
+    "web:test": "pnpm --filter ./webpage test",
+    "api:dev": "cd api && dotnet watch run --project WebApi",
+    "api:build": "cd api && dotnet build"
   },
   "keywords": [],
   "author": "",

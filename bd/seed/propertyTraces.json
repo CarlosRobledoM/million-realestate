@@ -1,0 +1,23 @@
+[
+  {
+    "idProperty": "PR-1001",
+    "dateSale": "2020-07-01",
+    "name": "Initial Sale",
+    "value": 300000,
+    "tax": 15000
+  },
+  {
+    "idProperty": "PR-1002",
+    "dateSale": "2021-09-12",
+    "name": "Initial Sale",
+    "value": 430000,
+    "tax": 21500
+  },
+  {
+    "idProperty": "PR-1003",
+    "dateSale": "2019-03-21",
+    "name": "Initial Sale",
+    "value": 205000,
+    "tax": 10250
+  }
+]

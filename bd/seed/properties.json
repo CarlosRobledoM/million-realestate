@@ -1,0 +1,29 @@
+[
+  {
+    "idProperty": "PR-1001",
+    "idOwner": "OWN-001",
+    "name": "Green Villa",
+    "addressProperty": "742 Evergreen",
+    "priceProperty": 320000,
+    "codeInternal": "GV-742",
+    "year": 2015
+  },
+  {
+    "idProperty": "PR-1002",
+    "idOwner": "OWN-001",
+    "name": "Everview Loft",
+    "addressProperty": "1010 Sunset Blvd",
+    "priceProperty": 450000,
+    "codeInternal": "EL-1010",
+    "year": 2019
+  },
+  {
+    "idProperty": "PR-1003",
+    "idOwner": "OWN-002",
+    "name": "Baker Flat",
+    "addressProperty": "221B Baker",
+    "priceProperty": 210000,
+    "codeInternal": "BF-221",
+    "year": 2012
+  }
+]

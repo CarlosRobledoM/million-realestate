@@ -1,0 +1,16 @@
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\bin\Debug\net9.0\Application.deps.json
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\bin\Debug\net9.0\Application.dll
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\bin\Debug\net9.0\Application.pdb
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\bin\Debug\net9.0\Domain.dll
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\bin\Debug\net9.0\Domain.pdb
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.sourcelink.json
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.dll
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\refint\Application.dll
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\Application.pdb
+C:\Users\carlos.robledo\Documents\GitHub\million-realestate\api\Application\obj\Debug\net9.0\ref\Application.dll
