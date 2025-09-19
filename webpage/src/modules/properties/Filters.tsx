@@ -18,7 +18,7 @@ export function Filters(props: {
   return (
     <form
       onSubmit={handleSubmit(props.onSubmit)}
-      className="rounded-2xl border bg-white/70 dark:bg-slate-900/60 p-4 shadow-soft backdrop-blur"
+      className="glass-card card-pad rounded-2xl border bg-white/70 dark:bg-slate-900/60 p-4 shadow-soft backdrop-blur"
     >
       <div className="grid gap-3 md:grid-cols-5">
         <Input placeholder="name" {...register("name")} />

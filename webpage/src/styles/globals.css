@@ -26,3 +26,22 @@
 body {
   @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
 }
+
+@utility app-container {
+  inline-size: min(1120px, 100% - clamp(16px, 4vw, 40px));
+  margin-inline: auto;
+}
+
+@utility section-y {
+  margin-block: clamp(12px, 3vw, 24px);
+}
+
+@utility r-grid {
+  display: grid;
+  gap: clamp(12px, 2.5vw, 24px);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+@utility card-pad {
+  padding: clamp(12px, 2.8vw, 16px);
+}

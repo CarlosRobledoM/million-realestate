@@ -2,6 +2,7 @@ import { AppShell } from "@/ui/shell/AppShell";
 import { makeGetProperty } from "@/core/application/usecases";
 import { propertyRepositoryHttp } from "@/infrastructure/repositories/propertyRepositoryHttp";
 import Image from "next/image";
+import { BackButton } from "@/ui/nav/BackButton";
 
 const getProperty = makeGetProperty(propertyRepositoryHttp);
 
@@ -16,8 +17,11 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <AppShell>
+      <div className="mb-6">
+        <BackButton />
+      </div>
       <div className="grid gap-8 lg:grid-cols-2">
-        <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-soft">
+        <div className="relative aspect-[16/10] rounded-2xl overflow-hidden glass-surface">
           {data.imageUrl ? (
             <Image
               src={data.imageUrl}
